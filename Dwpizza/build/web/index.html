@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css.css"?>
+
+<html>
+<heady>
+
+<title> DW pizzas </title>
+
+<heady>
+
+<body>
+
+<body background="pizza3.jpg">
+
+<script>
+if ( confirm( ' Escolha cardapio ou login' ) ) {
+	alert( 'Você apertou o botão "cardapio"' ); // mostra um alerta para resposta "cardapio"
+} else {
+	alert( 'Você apertou o botão "login"' ); // mostra um alerta para resposta "login"
+}
+</script>
+
+<center><img src="logo4.png">
+
+<center><b><img src="login.png"></b></center> <center><input size="30" type="text" name ="usuario"></center><BR><BR>
+
+<center><b><img src="senha.png"></b></center> <center><input size="30" type="passsw ord" name ="senha"><center>
+<p>
+
+<center><button id="login"> login</button></center>
+<BR>
+<center><button id="cadastrar"> cadastrar</button></center>
+
+
+<script>
+              window.onload = function () {
+                document.getElementById("login").addEventListener("click", function () {
+                    alert("Login incorreto");
+                }, false);
+            };
+</script>
+
+<BR><BR>
+<right><img src="pizza35.jpg">
+</html>
